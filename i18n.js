@@ -76,19 +76,23 @@ const i18n = {
     // instructions.html
     "inst-h2": {
         "en": "Instructions",
-        "de": "Instruktionen"
+        "de": "Instruktionen",
+        "es": "Instrucciones"        
     },
     "inst-p": {
         "en": "You will be presented with a series of statements. For each one, click the button with your opinion on it.",
-        "de": "Sie erhalten eine Reihe von Stellungnahmen. Klicken Sie jeweils auf die Schaltfläche mit Ihrer Meinung dazu."
+        "de": "Sie erhalten eine Reihe von Stellungnahmen. Klicken Sie jeweils auf die Schaltfläche mit Ihrer Meinung dazu.",
+        "es": "asfd"
     },
     "inst-gotit": {
         "en": "Got it!",
-        "de": "Verstanden"
+        "de": "Verstanden",
+        "es": "asfdasdf"
     },
     "inst-nvm": {
         "en": "Wait, nevermind!",
-        "de": "Warte, vergiss es!"
+        "de": "Warte, vergiss es!",
+        "es": "asfd"
     },
     // results.html
     "result-h1": {
