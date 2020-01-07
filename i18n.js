@@ -18,9 +18,14 @@ const languages = [
         "code": "en"
     },
     {
-        "name": "deutschblabla",
+        "name": "deutsch",
         "code": "de"
+    },
+    {
+        "name": "espanol",
+        "code": "es"
     }
+    
 ]
 const i18n = {
     getString(name, arguments=null) {
