@@ -158,7 +158,8 @@ const i18n = {
     // index.html
     "index-b-start": {
         "en": "Click here to start!",
-        "de": "Klicke hier um anzufangen!"
+        "de": "Klicke hier um anzufangen!",
+        "es": "¡Comenzar!"
     },
     "index-h2-whatis" : {
         "en": "What is LeftValues?",
