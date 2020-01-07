@@ -20,6 +20,10 @@ const languages = [
     {
         "name": "deutsch",
         "code": "de"
+    },
+    {
+        "name": "espanol",
+        "code": "es"
     }
 ]
 const i18n = {
