@@ -163,7 +163,8 @@ const i18n = {
     },
     "index-h2-whatis" : {
         "en": "What is LeftValues?",
-        "de": "Was ist LeftValues?"
+        "de": "Was ist LeftValues?",
+        "es": "¿Qué es LeftValues?"        
     },
     "index-p-answer": {
         "en": "LeftValues is a leftist quiz inspired by and based upon the <a href='https://8values.github.io/'>8values</a> quiz that seeks to identify your position on the left-wing spectrum. " + 
@@ -171,15 +172,20 @@ const i18n = {
         "There are <b><u><span id='numOfQuestions'></span></u></b> questions in the test.",
         "de": "LeftValues ist ein linkes Quiz, das von dem Quiz <a href='https://8values.github.io/'>8values</a> inspiriert ist und auf diesem basiert und versucht, Ihre Position im linken Spektrum zu bestimmen." +
         "Wenn Sie kein Linker sind, ist dieses Quiz offensichtlich nicht für Sie geeignet. Ihnen wird eine Erklärung vorgelegt, und Sie werden mit Ihrer Meinung zu den Fragen mit den Antworten <b>Stimme voll zu</b> bis <b>Stimme überhaupt nicht zu</b>, wobei sich jede Antwort geringfügig auf deine Punktzahl auswirkt. Die Fragen für die einzelnen Achsen werden nacheinander und nicht gestreut dargestellt. Am Ende des Quiz werden deine Antworten mit dem für jeden Wert maximal möglichen Wert verglichen. Damit geben Sie einen Prozentsatz. Antworte ehrlich! <br/> <br/>"+
-        "Der Test enthält <b><u><span id='numOfQuestions'></span></u></b> Fragen."
+        "Der Test enthält <b><u><span id='numOfQuestions'></span></u></b> Fragen.",
+        "es": "LeftValues es un cuestionario de izquierda inspirado y basado en el cuestionario <a href='https://8values.github.io/'> 8values </a> que busca identificar tu posición en el espectro izquierdista. " +
+         "Si no eres izquierdista, este cuestionario obviamente no es adecuado para ti. Se te presentará un enunciado y luego responderás con tu opinión sobre el mismo, desde <b> Muy de acuerdo </b> hasta <b > Totalmente en desacuerdo </b>, y cada respuesta afecta levemente tus puntajes. Las preguntas para cada eje se presentan en orden, en lugar de al azar. Al final del cuestionario, tus respuestas se compararán con el máximo posible para cada valor, lo que da un porcentaje. ¡Se honesto! <br/> <br/> "+
+         "Hay <b> <u> <span id = 'numOfQuestions'> </span> </u> </b> preguntas en la prueba."
     },
     "index-h2-whatvalues": {
         "en": "What are the values?",
-        "de": "Was sind die Werte?"
+        "de": "Was sind die Werte?",
+        "es": "¿Cuáles son los valores?"        
     },
     "index-sixaxes": {
         "en": "There are currently six axes, each of which has two opposing values. They are:",
-        "de": "Derzeit gibt es sechs Achsen, von denen jede zwei entgegengesetzte Werte hat. Sie sind:"
+        "de": "Derzeit gibt es sechs Achsen, von denen jede zwei entgegengesetzte Werte hat. Sie sind:",
+        "es": "Existen seis ejes, cada uno con dos valores opuestos, a saber:"
     },
     "index-rev-desc": {
         "en": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
