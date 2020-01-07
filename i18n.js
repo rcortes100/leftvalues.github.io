@@ -174,7 +174,7 @@ const i18n = {
         "Wenn Sie kein Linker sind, ist dieses Quiz offensichtlich nicht für Sie geeignet. Ihnen wird eine Erklärung vorgelegt, und Sie werden mit Ihrer Meinung zu den Fragen mit den Antworten <b>Stimme voll zu</b> bis <b>Stimme überhaupt nicht zu</b>, wobei sich jede Antwort geringfügig auf deine Punktzahl auswirkt. Die Fragen für die einzelnen Achsen werden nacheinander und nicht gestreut dargestellt. Am Ende des Quiz werden deine Antworten mit dem für jeden Wert maximal möglichen Wert verglichen. Damit geben Sie einen Prozentsatz. Antworte ehrlich! <br/> <br/>"+
         "Der Test enthält <b><u><span id='numOfQuestions'></span></u></b> Fragen.",
         "es": "LeftValues es un cuestionario de izquierda inspirado y basado en el cuestionario <a href='https://8values.github.io/'> 8values </a> que busca identificar tu posición en el espectro izquierdista. " +
-         "Si no eres izquierdista, este cuestionario obviamente no es adecuado para ti. Se te presentará un enunciado y luego responderás con tu opinión sobre el mismo, desde <b> Muy de acuerdo </b> hasta <b > Totalmente en desacuerdo </b>, y cada respuesta afecta levemente tus puntajes. Las preguntas para cada eje se presentan en orden, en lugar de al azar. Al final del cuestionario, tus respuestas se compararán con el máximo posible para cada valor, lo que da un porcentaje. ¡Se honesto! <br/> <br/> "+
+         "Si no eres izquierdista, este cuestionario obviamente no es adecuado para ti. Se te presentará un enunciado y luego responderás con tu opinión sobre el mismo, desde <b> Muy de acuerdo </b> hasta <b > Muy en desacuerdo </b>, y cada respuesta afecta levemente tus puntajes. Las preguntas para cada eje se presentan en orden, en lugar de al azar. Al final del cuestionario, tus respuestas se compararán con el máximo posible para cada valor, lo que da un porcentaje. ¡Se honesto! <br/> <br/> "+
          "Hay <b> <u> <span id = 'numOfQuestions'> </span> </u> </b> preguntas en la prueba."
     },
     "index-h2-whatvalues": {
@@ -191,43 +191,57 @@ const i18n = {
         "en": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
         "Those with a higher revolution score tend to support a radical and rapid overthrow of the capitalist system through a mass uprising. Those with a higher reform score tend to favor inducing gradual changes within capitalist structures, such as liberal democracy, with the eventual goal of reaching socialism.",
         "de": "<b style='color:#890000;'>Revolution</b> <b>vs.</b> <b style='color:#FC5959;'>Reform</b><br/>" +
-        "Diejenigen mit einem höheren Revolutionswert unterstützen tendenziell einen radikalen und raschen Sturz des kapitalistischen Systems durch einen Massenaufstand. Diejenigen mit einem höheren Reformwert tendieren dazu, allmähliche Veränderungen in kapitalistischen Strukturen wie der liberalen Demokratie herbeizuführen, mit dem eventuellen Ziel des Sozialismus."
+        "Diejenigen mit einem höheren Revolutionswert unterstützen tendenziell einen radikalen und raschen Sturz des kapitalistischen Systems durch einen Massenaufstand. Diejenigen mit einem höheren Reformwert tendieren dazu, allmähliche Veränderungen in kapitalistischen Strukturen wie der liberalen Demokratie herbeizuführen, mit dem eventuellen Ziel des Sozialismus.",
+        "es": "<b style='color:#890000;'>Revolución</b> <b>vs.</b> <b style='color:#FC5959;'>Reforma</b><br/>" +
+        "Aquellos con un alto puntaje de Revolución suelen apoyar una rápida y radical caída del sistema capitalista por medio de un levantamiento masivo. Aquellos con un alto puntaje de Reforma suelen apoyar la inducción de cambios graduales dentro de las estructuras capitalistas, como la Democracia Liberal, para llegar eventualmente al socialismo."
     },
     "index-sci-desc": {
         "en": "<b style='color:#88232B;'>Scientific</b> <b>vs.</b> <b style='color:#7F0037;'>Utopian</b><br/>" +
         "Those with a higher scientific score tend to support or sympathize with the Marxist analysis of society along the lines of dialectical materialism. Those with a higher utopian score tend to believe in a more idealistic analysis of society and reject materialist approaches.",
         "de": "<b style='color:#88232B;'>Wissenschaftlich</b> <b>vs.</b> <b style='color:#7F0037;'>Utopisch</b><br/>" +
-        "Diejenigen mit einer höheren wissenschaftlichen Punktzahl neigen dazu, die marxistische Gesellschaftsanalyse im Sinne des dialektischen Materialismus zu unterstützen oder zu sympathisieren. Diejenigen mit einer höheren utopischen Bewertung neigen dazu, an eine idealistischere Analyse der Gesellschaft zu glauben und materialistische Ansätze abzulehnen."
-    },
+        "Diejenigen mit einer höheren wissenschaftlichen Punktzahl neigen dazu, die marxistische Gesellschaftsanalyse im Sinne des dialektischen Materialismus zu unterstützen oder zu sympathisieren. Diejenigen mit einer höheren utopischen Bewertung neigen dazu, an eine idealistischere Analyse der Gesellschaft zu glauben und materialistische Ansätze abzulehnen.",
+        "es": "<b style='color:#88232B;'>Científico</b> <b>vs.</b> <b style='color:#7F0037;'>Utópico</b><br/>" +
+        "Aquellos con un alto puntaje científico tienden a simpatizar con el análisis marxista de la sociedad conforme a las líneas del materialismo dialéctico. Aquellos con un alto puntaje utópico tienden a creer más en un análisis idealista de la sociedad y rechazar las aproximaciones materialistas."
+    },        
     "index-cent-desc": {
         "en": "<b style='color:#560000;'>Central</b> <b>vs.</b> <b style='color:#000000;'>Decentral</b><br/>" + 
         "Those with a higher central score tend to support an economic structure based around centralized national planning. Those with a higher decentral score tend to support an economic structure based around decentralized planning, usually on a more localized scale.",
         "de": "<b style='color:#560000;'>Zentralisiert</b> <b>vs.</b> <b style='color:#000000;'>Dezentralisiert</b><br/>" + 
-        "Diejenigen mit einer höheren zentralen Punktzahl neigen dazu, eine Wirtschaftsstruktur zu unterstützen, die auf einer zentralisierten nationalen Planung beruht. Diejenigen mit einer höheren dezentralen Punktzahl neigen dazu, eine Wirtschaftsstruktur zu unterstützen, die auf einer dezentralen Planung beruht, normalerweise in einem lokaleren Maßstab."
+        "Diejenigen mit einer höheren zentralen Punktzahl neigen dazu, eine Wirtschaftsstruktur zu unterstützen, die auf einer zentralisierten nationalen Planung beruht. Diejenigen mit einer höheren dezentralen Punktzahl neigen dazu, eine Wirtschaftsstruktur zu unterstützen, die auf einer dezentralen Planung beruht, normalerweise in einem lokaleren Maßstab.",
+        "es": "<b style='color:#560000;'>Centralizado</b> <b>vs.</b> <b style='color:#000000;'>Decentralizado</b><br/>" + 
+        "Aquellos con un alto puntaje centralizado suelen apoyar una estructura económica basada alrededor de la planificación nacional centralizada. Aquellos con un alto puntaje decentralizado suelen apoyar una estructura económica basada en una planificación decentralizada, usualmente a una escala local."        
     },
     "index-int-desc": {
         "en": "<b style='color:#782F52;'>International</b> <b>vs.</b> <b style='color:#7F3300;'>National</b><br/>" +
         "Those with a higher international score tend to support forming an international socialist movement, often with the eventual goal of abolishing nations. Those with a higher national score tend to prioritize building socialism within existing borders and reject the goal of a world socialist republic.",
         "de": "<b style='color:#782F52;'>International</b> <b>vs.</b> <b style='color:#7F3300;'>National</b><br/>" +
-        "Diejenigen mit einer höheren internationalen Punktzahl neigen dazu, die Bildung einer internationalen sozialistischen Bewegung zu unterstützen, oft mit dem Ziel, Nationen abzuschaffen. Diejenigen mit einer höheren nationalen Punktzahl neigen dazu, den Aufbau des Sozialismus innerhalb der bestehenden Grenzen zu priorisieren und das Ziel einer sozialistischen Weltrepublik abzulehnen."
+        "Diejenigen mit einer höheren internationalen Punktzahl neigen dazu, die Bildung einer internationalen sozialistischen Bewegung zu unterstützen, oft mit dem Ziel, Nationen abzuschaffen. Diejenigen mit einer höheren nationalen Punktzahl neigen dazu, den Aufbau des Sozialismus innerhalb der bestehenden Grenzen zu priorisieren und das Ziel einer sozialistischen Weltrepublik abzulehnen.",
+        "es": "<b style='color:#782F52;'>Internacional</b> <b>vs.</b> <b style='color:#7F3300;'>Nacional</b><br/>" +
+        "Aquellos con un alto puntaje internacional suelen apoyar la formación de un movimiento socialista internacional, a menudo con la meta eventual de abolir las naciones. Aquellos con un alto puntaje nacional tienden a priorizar la construcción del socialismo dentro de las fronteras existentes, y rechazan la meta de una república socialista mundial."
     },
     "index-party-desc": {
         "en": "<b style='color:#963B33;'>Party</b> <b>vs.</b> <b style='color:#7F333B;'>Union</b><br/>" +
         "Those with a higher party score tend to favor using political parties as the basis of a socialist movement. Those with a higher union score tend to favor using trade unions and other forms of mass organization as a basis of a socialist movement. Being pro-party does not necessarily mean you oppose unions and vice versa, it is more about preference.",
         "de": "<b style='color:#963B33;'>Partei</b> <b>vs.</b> <b style='color:#7F333B;'>Gesellschaft</b><br/>" +
-        "Diejenigen mit einer höheren Parteibewertung bevorzugen es, politische Parteien als Grundlage einer sozialistischen Bewegung zu verwenden. Diejenigen mit einer höheren Gewerkschaftsbewertung bevorzugen es, Gewerkschaften und andere Formen der Massenorganisation als Grundlage einer sozialistischen Bewegung zu verwenden. Partei bedeutet nicht unbedingt, dass Sie gegen Gewerkschaften sind und umgekehrt, es geht mehr um Präferenzen."
+        "Diejenigen mit einer höheren Parteibewertung bevorzugen es, politische Parteien als Grundlage einer sozialistischen Bewegung zu verwenden. Diejenigen mit einer höheren Gewerkschaftsbewertung bevorzugen es, Gewerkschaften und andere Formen der Massenorganisation als Grundlage einer sozialistischen Bewegung zu verwenden. Partei bedeutet nicht unbedingt, dass Sie gegen Gewerkschaften sind und umgekehrt, es geht mehr um Präferenzen.",
+        "es": "<b style='color:#963B33;'>Partidista</b> <b>vs.</b> <b style='color:#7F333B;'>Sindicalista</b><br/>" +
+        "Aquellos con un alto puntaje partidista tienden a favorecer el uso de partidos políticos como base para un movimiento socialista. Aquellos con un alto puntaje sindicalista tienden a favorecer el uso de sindicatos y otras formas de organización masiva como base para el movimiento socialista. Ser partidista no implica necesariamente oponerse a los sindicatos, y viceversa, es más bien una cuestión de preferencia."
     },
     "index-prod-desc": {
         "en": "<b style='color:#804E00;'>Production</b> <b>vs.</b> <b style='color:#76890B;'>Nature</b><br/>" +
         "Those with a higher production score tend to prioritize industrial output and self-sustainability over ecological goals. Those with a higher nature score tend to support an environmentally oriented economy with strict ecological protections.",
         "de": "<b style='color:#804E00;'>Produktion</b> <b>vs.</b> <b style='color:#76890B;'>Ökologie</b><br/>" +
-        "Diejenigen mit einem höheren Produktionsfaktor tendieren dazu, die Industrieproduktion und die Selbstverträglichkeit vor ökologischen Zielen zu priorisieren. Diejenigen mit einem höheren ökologischen Faktor tendieren dazu, eine umweltorientierte Wirtschaft mit strengen ökologischen Schutzmaßnahmen zu unterstützen."
+        "Diejenigen mit einem höheren Produktionsfaktor tendieren dazu, die Industrieproduktion und die Selbstverträglichkeit vor ökologischen Zielen zu priorisieren. Diejenigen mit einem höheren ökologischen Faktor tendieren dazu, eine umweltorientierte Wirtschaft mit strengen ökologischen Schutzmaßnahmen zu unterstützen.",
+        "es": "<b style='color:#804E00;'>Productividad</b> <b>vs.</b> <b style='color:#76890B;'>Naturaleza</b><br/>" +
+        "Aquellos con una alta puntuación de productividad suelen priorizar la producción industrial y la autosuficiencia por encima de las metas ecológicas. Aquellos con una mayor puntuación de naturaleza tienden a apoyar una economía orientada al medio ambiente con protecciones ecológicas estrictas."
     },
     "index-cons-desc": {
         "en": "<b style='color:#27577A;'>Conservative</b> <b>vs.</b> <b style='color:#C4A717;'>Progressive</b><br/>" +
         "Those with a higher conservative score tend to favor more socially conservative policies and views. Those with a higher progressive score tend to support more socially progressive policies and views.",
         "de": "<b style='color:#27577A;'>Konservativ</b> <b>vs.</b> <b style='color:#C4A717;'>Progressiv</b><br/>" +
-        "Diejenigen mit einer höheren konservativen Bewertung tendieren dazu, sozial konservativere Strategien und Ansichten zu bevorzugen. Diejenigen mit einer höheren progressiven Punktzahl unterstützen tendenziell eine sozial progressivere Politik und Sichtweise."
+        "Diejenigen mit einer höheren konservativen Bewertung tendieren dazu, sozial konservativere Strategien und Ansichten zu bevorzugen. Diejenigen mit einer höheren progressiven Punktzahl unterstützen tendenziell eine sozial progressivere Politik und Sichtweise.",
+        "es": "<b style='color:#27577A;'>Conservador</b> <b>vs.</b> <b style='color:#C4A717;'>Progresivo</b><br/>" +
+        "Aquellos con un alto puntaje conservador favorecen políticas y puntos de vista socialmente conservadores. Aquellos con un alto puntaje progresivo suelen favorecer puntos de vista y políticas socialmente progresivas."
     },
     "index-h2-closest": {
         "en": "What does \"Closest Match\" mean in the results?",
