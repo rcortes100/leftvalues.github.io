@@ -18,12 +18,8 @@ const languages = [
         "code": "en"
     },
     {
-        "name": "deutsch",
+        "name": "deutschblabla",
         "code": "de"
-    },
-    {
-        "name": "espanol",
-        "code": "es"
     }
 ]
 const i18n = {
