@@ -9,20 +9,30 @@ function setCookie (cname, cvalue, exhours) {
     let expires = 'expires=' + d.toUTCString()
     document.cookie = cname + '=' + cvalue + ';' + expires + ';path=/'
 }
+/*
+To add a new language, just insert a new entry in the const languages array, below the last language, preceeding with a comma. For example:
+
+    {
+        "name": "Klingon",
+        "code": "kl"
+    }
+    
+The code can be used in each entrance to indicate the proper language of the text.    
+*/
 
 const langElements = document.querySelectorAll('[data-i18n]')
 const userLang = getCookie("lang") || navigator.language || navigator.userLanguage
 const languages = [
     {
-        "name": "english",
+        "name": "English",
         "code": "en"
     },
     {
-        "name": "deutsch",
+        "name": "Deutsch",
         "code": "de"
     },
     {
-        "name": "espanol",
+        "name": "Español",
         "code": "es"
     }
     
@@ -43,36 +53,44 @@ const i18n = {
     "lang": userLang,
     // quiz.html
     "quiz-loading": {
-        "de": "Laden…"
+        "de": "Laden…",
+        "es": "Cargando..."
     },
     "quiz-strongly-agree": {
         "en": "Strongly Agree",
-        "de": "Stimme voll zu"        
+        "de": "Stimme voll zu",
+        "es": "Muy de acuerdo"
     },
     "quiz-agree": {
         "en": "Agree",
-        "de": "Stimme zu"
+        "de": "Stimme zu",
+        "es": "De acuerdo"
     },
     "quiz-neutral": {
         "en": "Neutral/Unsure",
-        "de": "Neutral/Unsicher"
+        "de": "Neutral/Unsicher",
+        "es": "No estoy seguro"
     },
     "quiz-disagree": {
         "en": "Disagree",
-        "de": "Stimme nicht zu"
+        "de": "Stimme nicht zu",
+        "es": "En desacuerdo"
     },
     "quiz-strongly-disagree": {
         "en": "Strongly Disagree",
-        "de": "Stimme überhaupt nicht zu"
+        "de": "Stimme überhaupt nicht zu",
+        "es": "Muy en desacuerdo"    
     },
     "quiz-back": {
         "de": "back",
-        "de": "Zurück"
+        "de": "Zurück",
+        "es": "Regresar"
     },
     "quiz-question-of": {
         en(qn, questions) {return `Question ${qn + 1} of ${questions.length}`},
-        de(qn, questions) {return `Frage ${qn +1} von ${questions.length}`}
-    },
+        de(qn, questions) {return `Frage ${qn +1} von ${questions.length}`},
+        es(qn, questions) {return `Pregunta ${qn +1} de ${questions.length}`}
+    },    
     // instructions.html
     "inst-h2": {
         "en": "Instructions",
