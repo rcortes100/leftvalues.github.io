@@ -188,67 +188,6 @@ const i18n = {
         "de": "Zurück",
         "es": "Regresar"
     },    
-    // results.html
-    "result-h1": {
-        "en": "Results",
-        "de": "Ergebnisse"
-    },
-    "result-url": {
-        "en": "<br>You can send these results by copying and pasting the URL at the top of the page or using the image below.",
-        "de": "<br>Sie können diese Ergebnisse senden, indem Sie die URL oben auf der Seite kopieren und einfügen oder das folgende Bild verwenden."
-    },
-    "result-h2-match": {
-        "en": "Closest Match: <span class='weight-300' id='ideology-label'> </span>",
-        "de": "Höchste Übereinstimmung: <span class='weight-300' id='ideology-label'> </span>",
-    },
-    "result-h2-next-matches": {
-        "en": "Next closest matches",
-        "de": "Nächst höchste Überstimmungen"
-    },
-    "next-matches-percent": {
-        "en": "With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.",
-        "de": "Hier sind die Ideologien mit denen du am meisten übereinstimmst, wo volle Übereinstimmung 100% ist und keine 0%."
-    },
-    "result-h2-score": {
-        "en": "I don't like my scores!",
-        "de": "Ich mag meine Ergebnisse nicht"
-    },
-    "result-issues": {
-        "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>short form</a> or open an issue on the <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
-        "de": "Bitte denken Sie daran, dass Sie in keiner der Kategorien eine 100%-ige Punktzahl erzielen möchten. Ziel des Quiz ist es, Ihre Ansichten zu hinterfragen. Wenn Sie Anregungen oder konstruktive Kritik haben, füllen Sie bitte dieses <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>Kurzformular</a> aus oder öffnen Sie ein Problem auf der <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub-Seite</a>."
-    },
-    "result-a-label": {
-        "en": ["Extremely Revolutionary","Very Revolutionary","Revolutionary","Neutral","Reformist","Very Reformist","Extremely Reformist"],
-        "de": ["Extrem Revolutionär", "Sehr Revolutionär", "Revolutionär", "Neutral", "Reformistisch", "Sehr Reformistisch", "Extrem Reformistisch"]
-    },
-    "result-b-label": {
-        "en": ["Extremely Scientific","Very Scientific","Scientific","Neutral","Utopian","Very Utopian","Extremely Utopian"],
-        "de": ["Extrem Wissenschaftlich", "Sehr Wissenschaftlich", "Wissenschaftlich", "Neutral", "Utopisch", "Sehr Utopisch", "Extrem Utopisch"]
-    },
-    "result-c-label": {
-        "en": ["Extremely Centralist","Very Centralist","Centralist","Neutral","Decentralist","Very Decentralist","Extremely Decentralist"],
-        "de": ["Extrem Zentralisiert", "Sehr Zentralisiert", "Zentralisiert", "Neutral", "Dezentralisiert", "Sehr Dezentralisiert", "Extrem Dezentralisiert"]
-    },
-    "result-d-label": {
-        "en": ["Extremely Internationalist","Very Internationalist","Internationalist","Neutral","Nationalist","Very Nationalist","Extremely Nationalist"],
-        "de": ["Extrem Internationalistisch", "Sehr Internationalistisch", "Internationalistisch", "Neutral", "Nationalistisch", "Sehr Nationalistisch", "Extrem Nationalistisch"]
-    },
-    "result-e-label": {
-        "en": ["Extremely Partisan","Very Partisan","Partisan","Neutral","Unionist","Very Unionist","Extremely Unionist"],
-        "de": ["Extrem Parteiisch", "Sehr Parteiisch", "Parteiisch", "Neutral", "Gewerkschaftlich", "Sehr Gewerkschaftlich", "Extrem Gewerkschaftlich"],
-    },
-    "result-f-label": {
-        "en": ["Extremely Productivist","Very Productivist","Productivist","Neutral","Ecological","Very Ecological","Extremely Ecological"],
-        "de": ["Extrem Produktivist", "Sehr Produktivist", "Produktivist", "Neutral", "Ökologisch", "Sehr Ökologisch", "Extrem Ökologisch"]
-    },
-    "result-g-label": {
-        "en": ["Extremely Conservative","Very Conservative","Conservative","Neutral","Progressive","Very Progressive","Extremely Progressive"],
-        "de": ["Extrem Konservativ", "Sehr Konservativ", "Konservativ", "Neutral", "Progressiv", "Sehr Progressiv", "Extrem Progressiv"],
-    },
-    "result-back": {
-        "en": "Back",
-        "de": "Zurück"
-    },
     // index.html
     "index-b-start": {
         "en": "Click here to start!",
@@ -339,27 +278,33 @@ const i18n = {
     },
     "index-h2-closest": {
         "en": "What does \"Closest Match\" mean in the results?",
-        "de": "Was bedeutet \"Nächste Übereinstimmung\" in den Ergebnissen?"
+        "de": "Was bedeutet \"Nächste Übereinstimmung\" in den Ergebnissen?",
+        "es": "¿Qué significa \"Resultado más cercano\" en realidad"
     },
     "index-p-similar": {
         "en": "Similar to 8values, this quiz will attempt to match you with a specific leftist ideology. There are currently twelve possible ideologies, with more to come in the future. This is a work in progress and may not work as intended. Suggestions are very welcome. The current ideologies are: Marxism-Leninism, Orthodox Marxism, Eco-Marxism, Centrist Marxism, Council Communism, Left Communism, Anarcho-Communism, Eco-Anarchism, Market Anarchism, Utopian Socialism, Democratic Socialism and Social Democracy",
-        "de": "Ähnlich wie bei 8values wird dieses Quiz versuchen, Sie mit einer bestimmten linken Ideologie in Einklang zu bringen. Derzeit gibt es zwölf mögliche Ideologien, von denen in Zukunft weitere folgen werden. Dies ist eine laufende Arbeit und funktioniert möglicherweise nicht wie beabsichtigt. Vorschläge sind sehr willkommen. Die gegenwärtigen Ideologien sind: Marxismus-Leninismus, orthodoxer Marxismus, Öko-Marxismus, zentristischer Marxismus, Kommunismus des Rates, Linkskommunismus, Anarcho-Kommunismus, Öko-Anarchismus, Marktanarchismus, utopischer Sozialismus, demokratischer Sozialismus und Sozialdemokratie"
+        "de": "Ähnlich wie bei 8values wird dieses Quiz versuchen, Sie mit einer bestimmten linken Ideologie in Einklang zu bringen. Derzeit gibt es zwölf mögliche Ideologien, von denen in Zukunft weitere folgen werden. Dies ist eine laufende Arbeit und funktioniert möglicherweise nicht wie beabsichtigt. Vorschläge sind sehr willkommen. Die gegenwärtigen Ideologien sind: Marxismus-Leninismus, orthodoxer Marxismus, Öko-Marxismus, zentristischer Marxismus, Kommunismus des Rates, Linkskommunismus, Anarcho-Kommunismus, Öko-Anarchismus, Marktanarchismus, utopischer Sozialismus, demokratischer Sozialismus und Sozialdemokratie",
+        "es": "Parecido a 8values, este cuestionario intentará identificarte con una ideología izquierdista específica. Actualmente hay doce ideologías posibles, y se añadirán más en el futuro. Este es un trabajo en progreso y puede que todavía no funcione como debería. Las sugerencias son más que bienvenidas. Las ideologías disponibles en este momento son: Marxism-Leninism, Orthodox Marxism, Eco-Marxism, Centrist Marxism, Council Communism, Left Communism, Anarcho-Communism, Eco-Anarchism, Market Anarchism, Utopian Socialism, Democratic Socialism and Social Democracy"
     },
     "index-h2-scores": {
         "en": "I don't like my scores!",
-        "de": "Ich mag meine Ergebnisse nicht!"
+        "de": "Ich mag meine Ergebnisse nicht!",
+        "es": "No estoy de acuerdo con mis resultados."
     },
     "index-p-scores": {
         "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>short form</a> or open an issue on the <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
-        "de": "Bitte denken Sie daran, dass Sie in keiner der Kategorien eine 100%-ige Punktzahl erzielen möchten. Ziel des Quiz ist es, Ihre Ansichten zu hinterfragen. Wenn Sie Anregungen oder konstruktive Kritik haben, füllen Sie bitte dieses <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>Kurzformular</a> aus oder öffnen Sie ein Problem auf der <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub-Seite</a>."
+        "de": "Bitte denken Sie daran, dass Sie in keiner der Kategorien eine 100%-ige Punktzahl erzielen möchten. Ziel des Quiz ist es, Ihre Ansichten zu hinterfragen. Wenn Sie Anregungen oder konstruktive Kritik haben, füllen Sie bitte dieses <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>Kurzformular</a> aus oder öffnen Sie ein Problem auf der <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub-Seite</a>.",
+        "es": "Por favor recuerda que no se supone que debas obtener 100% en alguna de las categorías. El punto de este cuestionario es confrontar tus puntos de vista. Si tienes alguna sugerencia o crítica constructiva, por favor llena este <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>breve formulario</a> o inicia un asunto en el <a href='https://github.com/LeftValues/leftvalues.github.io'>Sitio de GitHub</a>."
     },
     "index-h2-tracked": {
         "en": "Am I being tracked?",
-        "de": "Werde ich getracked?"
+        "de": "Werde ich getracked?",
+        "es": "¿Me están monitoreando?"
     },
     "index-p-tracked": {
         "en": "LeftValues does utilize very basic tracking to get an idea of the amount of visitors. No personal information is collected and answers/results are not saved. If you do not believe me, the code is open source and available for all to see. For transparency purposes, the collected data for the first week since release can be viewed on this <a href='https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing'>Google Document</a>.",
-        "de": "LeftValues verwendet ein sehr einfaches Tracking, um sich einen Überblick über die Anzahl der Besucher zu verschaffen. Es werden keine persönlichen Informationen gesammelt und Antworten/Ergebnisse werden nicht gespeichert. Wenn Sie mir nicht glauben, ist der Code Open Source und für alle sichtbar."
+        "de": "LeftValues verwendet ein sehr einfaches Tracking, um sich einen Überblick über die Anzahl der Besucher zu verschaffen. Es werden keine persönlichen Informationen gesammelt und Antworten/Ergebnisse werden nicht gespeichert. Wenn Sie mir nicht glauben, ist der Code Open Source und für alle sichtbar.",
+        "en": "LeftValues utiliza un monitoreo muy básico para tener una idea de la cantidad de visitantes. No se recopila información personal, y las respuestas o resultados no se almacenan. Si no nos crees, el código es libre y está disponible para que cualquiera lo vea. Por motivos de transparencia, los datos recopilados desde la primera semana de la publicación del sitio se pueden consultar en este <a href='https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing'>Documento de Google</a>."
     }
 }
 
