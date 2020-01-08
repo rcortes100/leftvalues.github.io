@@ -305,6 +305,11 @@ const i18n = {
         "en": "LeftValues does utilize very basic tracking to get an idea of the amount of visitors. No personal information is collected and answers/results are not saved. If you do not believe me, the code is open source and available for all to see. For transparency purposes, the collected data for the first week since release can be viewed on this <a href='https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing'>Google Document</a>.",
         "de": "LeftValues verwendet ein sehr einfaches Tracking, um sich einen Überblick über die Anzahl der Besucher zu verschaffen. Es werden keine persönlichen Informationen gesammelt und Antworten/Ergebnisse werden nicht gespeichert. Wenn Sie mir nicht glauben, ist der Code Open Source und für alle sichtbar.",
         "es": "LeftValues utiliza un monitoreo muy básico para tener una idea de la cantidad de visitantes. No se recopila información personal, y las respuestas o resultados no se almacenan. Si no nos crees, el código es libre y está disponible para que cualquiera lo vea. Por motivos de transparencia, los datos recopilados desde la primera semana de la publicación del sitio se pueden consultar en este <a href='https://docs.google.com/document/d/1pcnZdMkEmGXgLMS8izvqd_JEcgjuFgUnfqCRO32q2go/edit?usp=sharing'>Documento de Google</a>."
+    },
+    "index-license": {
+        "en": "8values is licensed under the MIT License, which permits \"without restriction\" the rights to \"use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software\". LeftValues is thus able to legally modify the original 8values without infringing on any copyright. LeftValues also utilizes the same license.",
+        "de": "Deutsch license",
+        "es": "Spanish license"
     }
 }
 
