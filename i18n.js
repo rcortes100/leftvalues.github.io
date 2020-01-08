@@ -95,23 +95,99 @@ const i18n = {
     "inst-h2": {
         "en": "Instructions",
         "de": "Instruktionen",
-        "es": "Instrucciones"        
+        "es": "Instrucciones"
     },
     "inst-p": {
         "en": "You will be presented with a series of statements. For each one, click the button with your opinion on it.",
         "de": "Sie erhalten eine Reihe von Stellungnahmen. Klicken Sie jeweils auf die Schaltfläche mit Ihrer Meinung dazu.",
-        "es": "asfd"
+        "es": "En la siguiente serie de enunciados, selecciona la opción que represente mejor tu opinión al respecto."
     },
     "inst-gotit": {
         "en": "Got it!",
         "de": "Verstanden",
-        "es": "asfdasdf"
+        "es": "Entendido"
     },
     "inst-nvm": {
         "en": "Wait, nevermind!",
         "de": "Warte, vergiss es!",
-        "es": "asfd"
+        "es": "Mejor olvídalo"
     },
+    // results.html
+    "result-h1": {
+        "en": "Results",
+        "de": "Ergebnisse",
+        "es": "Resultados"
+    },
+    "result-url": {
+        "en": "<br>You can send these results by copying and pasting the URL at the top of the page or using the image below.",
+        "de": "<br>Sie können diese Ergebnisse senden, indem Sie die URL oben auf der Seite kopieren und einfügen oder das folgende Bild verwenden.",
+        "es": "<br>Comparte estos resultados copiando y pegando la URL en la barra de direcciones, o bien usando la imagen siguiente."
+    },
+    "result-h2-match": {
+        "en": "Closest Match: <span class='weight-300' id='ideology-label'> </span>",
+        "de": "Höchste Übereinstimmung: <span class='weight-300' id='ideology-label'> </span>",
+        "es": "Resultado más cercano: <span class='weight-300' id='ideology-label'> </span>"
+    },
+    "result-h2-next-matches": {
+        "en": "Next closest matches",
+        "de": "Nächst höchste Überstimmungen",
+        "es": "Siguientes más cercanos"
+    },
+    "next-matches-percent": {
+        "en": "With your closest match as 100% and farthest as 0%, here is how closely you matched the other ideologies.",
+        "de": "Hier sind die Ideologien mit denen du am meisten übereinstimmst, wo volle Übereinstimmung 100% ist und keine 0%.",
+        "es": "He aquí tu compatibilidad con las otras ideologías, siendo 100% la más cercana y 0% la más lejana."
+    },
+    "result-h2-score": {
+        "en": "I don't like my scores!",
+        "de": "Ich mag meine Ergebnisse nicht",
+        "es": "¡No me gusta el resultado!"
+    },
+    "result-issues": {
+        "en": "Please remember that you are not intended to get a 100% score in any of the categories. The point of the quiz is to challenge your views. If you have any suggestions or constructive criticism please fill out this <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>short form</a> or open an issue on the <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub Page</a>.",
+        "de": "Bitte denken Sie daran, dass Sie in keiner der Kategorien eine 100%-ige Punktzahl erzielen möchten. Ziel des Quiz ist es, Ihre Ansichten zu hinterfragen. Wenn Sie Anregungen oder konstruktive Kritik haben, füllen Sie bitte dieses <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>Kurzformular</a> aus oder öffnen Sie ein Problem auf der <a href='https://github.com/LeftValues/leftvalues.github.io'>GitHub-Seite</a>.",
+        "es": "Por favor recuerda que no se trata de obtener 100% en alguna categoría. El punto de la prueba es confrontar tus puntos de vista. Si tienes alguna sugerencia o crítica constructiva, por favor llena este breve <a href='https://forms.gle/6WZYMb5GXkkDLhxr5'>formulario</a> o inicia una discusión en el <a href='https://github.com/LeftValues/leftvalues.github.io'>Sitio de GitHub</a>."
+    },
+    "result-a-label": {
+        "en": ["Extremely Revolutionary","Very Revolutionary","Revolutionary","Neutral","Reformist","Very Reformist","Extremely Reformist"],
+        "de": ["Extrem Revolutionär", "Sehr Revolutionär", "Revolutionär", "Neutral", "Reformistisch", "Sehr Reformistisch", "Extrem Reformistisch"],
+        "es": ["Extremadamente revolucionaria","Muy revolucionaria","Revolucionaria","Neutral","Reformista","Muy reformista","Extremadamente reformista"]
+    },
+    "result-b-label": {
+        "en": ["Extremely Scientific","Very Scientific","Scientific","Neutral","Utopian","Very Utopian","Extremely Utopian"],
+        "de": ["Extrem Wissenschaftlich", "Sehr Wissenschaftlich", "Wissenschaftlich", "Neutral", "Utopisch", "Sehr Utopisch", "Extrem Utopisch"],
+        "es": ["Extremadamente científica","Muy científica","Científica","Neutral","Utópica","Muy utópíca","Extremadamente utópica"]
+    },
+    "result-c-label": {
+        "en": ["Extremely Centralist","Very Centralist","Centralist","Neutral","Decentralist","Very Decentralist","Extremely Decentralist"],
+        "de": ["Extrem Zentralisiert", "Sehr Zentralisiert", "Zentralisiert", "Neutral", "Dezentralisiert", "Sehr Dezentralisiert", "Extrem Dezentralisiert"],
+        "es": ["Extremadamente centralista","Muy centralista","Centralista","Neutral","Decentralista","Muy decentralista","Extremadamente decentralista"]
+    },
+    "result-d-label": {
+        "en": ["Extremely Internationalist","Very Internationalist","Internationalist","Neutral","Nationalist","Very Nationalist","Extremely Nationalist"],
+        "de": ["Extrem Internationalistisch", "Sehr Internationalistisch", "Internationalistisch", "Neutral", "Nationalistisch", "Sehr Nationalistisch", "Extrem Nationalistisch"],
+        "es": ["Extremadamente internacionalista","Muy internacionalista","Internacionalista","Neutral","Nacionalista","Muy nacionalista","Extremadamente nacionalista"]
+    },
+    "result-e-label": {
+        "en": ["Extremely Partisan","Very Partisan","Partisan","Neutral","Unionist","Very Unionist","Extremely Unionist"],
+        "de": ["Extrem Parteiisch", "Sehr Parteiisch", "Parteiisch", "Neutral", "Gewerkschaftlich", "Sehr Gewerkschaftlich", "Extrem Gewerkschaftlich"],
+        "es": ["Extremadamente partidista","Muy partidista","Partidista","Neutral","Sindicalista","Muy sindicalista","Extremadamente sindicalista"]
+    },
+    "result-f-label": {
+        "en": ["Extremely Productivist","Very Productivist","Productivist","Neutral","Ecological","Very Ecological","Extremely Ecological"],
+        "de": ["Extrem Produktivist", "Sehr Produktivist", "Produktivist", "Neutral", "Ökologisch", "Sehr Ökologisch", "Extrem Ökologisch"],
+        "es": ["Extremadamente productivista","Muy productivista","Productivista","Neutral","Ecologista","Muy ecologista","Extremadamente ecologista"]
+    },
+    "result-g-label": {
+        "en": ["Extremely Conservative","Very Conservative","Conservative","Neutral","Progressive","Very Progressive","Extremely Progressive"],
+        "de": ["Extrem Konservativ", "Sehr Konservativ", "Konservativ", "Neutral", "Progressiv", "Sehr Progressiv", "Extrem Progressiv"],
+        "es": ["Extremadamente conservadora", "Muy conservadora", "Conservadora", "Neutral", "Progresista", "Muy progresista", "Extremadamente progresista"]
+    },
+    "result-back": {
+        "en": "Back",
+        "de": "Zurück"
+        "es": "Regresar"
+    },    
     // results.html
     "result-h1": {
         "en": "Results",
