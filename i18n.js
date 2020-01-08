@@ -185,7 +185,7 @@ const i18n = {
     },
     "result-back": {
         "en": "Back",
-        "de": "Zurück"
+        "de": "Zurück",
         "es": "Regresar"
     },    
     // results.html
