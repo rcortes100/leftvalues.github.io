@@ -1,4 +1,181 @@
 questions = [
+    //revolution vs reform
+    {
+        "question": "Reforming capitalist society to achieve better rights for workers is desirable.",
+        "i18n": {
+            "de": "Es ist wünschenswert, die kapitalistische Gesellschaft zu reformieren, um bessere Rechte für die Arbeitnehmer zu erreichen.",
+            "es": "Reformar la sociedad capitalista para alcanzar mejores derechos para los obreros es deseable."
+        },
+        "effect": {
+            "a": -5,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Revolution is the best way of achieving a socialist society.",
+        "i18n": {
+            "de": "Revolution ist der beste Weg zur sozialistischen Revolution.",
+            "es": "La revolución es la mejor manera de alcanzar una sociedad socialista."
+        },
+        "effect": {
+            "a": 10,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        },
+    },
+    {
+        "question": "The negative consequences of a revolution generally outweigh the advantages.",
+        "i18n": {
+            "de": "Die negativen Folgen einer Revolution überwiegen im Allgemeinen die Vorteile.",
+            "es": "Las consecuencias negativas de una revolución generalmente rebasan sus ventajas."
+        },
+        "effect": {
+            "a": -10,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Liberal democracy is a viable way of achieving a socialist society.",
+        "i18n": {
+            "de": "Die liberale Demokratie ist ein realistischer Weg, um eine sozialistische Gesellschaft zu erreichen.",
+            "es": "La democracia liberal es un modo viable de alcanzar una sociedad socialista."
+        },
+        "effect": {
+            "a": -10,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "A socialist revolution is made inevitable by the conditions of capitalism.",
+        "i18n": {
+            "de": "Eine sozialistische Revolution wird durch die Bedingungen des Kapitalismus unvermeidlich gemacht.",
+            "es": "Una revolución socialista es inevitable debido a las condiciones del capitalismo."
+        },
+        "effect": {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Workplace democracy within capitalism is an acceptable alternative to a complete socialization of the economy.",
+        "i18n": {
+            "de": "Die Demokratie am Arbeitsplatz im Kapitalismus ist eine akzeptable Alternative zu einer vollständigen Sozialisierung der Wirtschaft.",
+            "es": "La democracia laboral dentro del capitalismo es una alternativa aceptable a la socialización completa de la economía."
+        },
+        "effect": {
+            "a": -10,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Revolutionary violence is acceptable as long as the final outcome is positive.",
+        "i18n": {
+            "de": "Revolutionäre Gewalt ist akzeptabel, solange das Endergebnis positiv ist.",
+            "es": "La violencia revolucionaria es aceptable siempre y cuando el resultado final sea positivo."
+        },
+        "effect": {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Redistributing wealth away from the wealthy through taxes is a viable way of defeating inequality.",
+        "i18n": {
+            "de": "Die Umverteilung von Reichtum der Reichen durch Steuern ist ein realistischer Weg, um die Ungleichheit zu besiegen.",
+            "es": "La redistribución de la riqueza a través de impuestos a los más ricos es una manera viable de vencer la desigualdad."
+        },
+        "effect": {
+            "a": -5,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Modern social democracy is a betrayal of left-wing values.",
+        "i18n": {
+            "de": "Die moderne Sozialdemokratie ist ein Verrat an linken Werten.",
+            "es": "La democracia social moderna traiciona los valores de izquierda."
+        },
+        "effect": {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+    {
+        "question": "Oppressed peoples have the right to engage in a violent uprising when all other options have been exhausted.",
+        "i18n": {
+            "de": "Unterdrückte Völker haben das Recht, sich an einem gewaltsamen Aufstand zu beteiligen, wenn alle anderen Möglichkeiten ausgeschöpft sind.",
+            "es": "La gente oprimida tiene el derecho a recurrir a un levantamiento violento cuando todas las otras opciones han sido agotadas."
+        },
+        "effect": {
+            "a": 5,
+            "b": 0,
+            "c": 0,
+            "d": 5,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },
+	{
+        "question": "The means of production, such as factories and farms, must be publicly owned.",
+        "i18n": {
+            "de": "Die Produktionsmittel wie Fabriken und Farmen müssen in öffentlichem Besitz sein.",
+            "es": "Los medios de producción, como las fábricas y granjas, deben ser públicos."
+        },
+        "effect": {
+            "a": 5,
+            "b": 5,
+            "c": 0,
+            "d": 0,
+            "e": 0,
+            "f": 0,
+            "g": 0
+        }
+    },	
     //scientific vs utopian
     {
         "question": "Material conditions and needs are the dominant drive behind socioeconomic changes.",
