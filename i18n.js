@@ -279,7 +279,7 @@ const i18n = {
     "index-h2-closest": {
         "en": "What does \"Closest Match\" mean in the results?",
         "de": "Was bedeutet \"Nächste Übereinstimmung\" in den Ergebnissen?",
-        "es": "¿Qué significa \"Resultado más cercano\" en realidad"
+        "es": "¿Qué significa \"Resultado más cercano\" en realidad?"
     },
     "index-p-similar": {
         "en": "Similar to 8values, this quiz will attempt to match you with a specific leftist ideology. There are currently twelve possible ideologies, with more to come in the future. This is a work in progress and may not work as intended. Suggestions are very welcome. The current ideologies are: Marxism-Leninism, Orthodox Marxism, Eco-Marxism, Centrist Marxism, Council Communism, Left Communism, Anarcho-Communism, Eco-Anarchism, Market Anarchism, Utopian Socialism, Democratic Socialism and Social Democracy",
