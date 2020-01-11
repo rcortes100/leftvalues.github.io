@@ -4,7 +4,7 @@ questions = [
         "question": "Material conditions and needs are the dominant drive behind socioeconomic changes.",
         "i18n": {
             "de": "Die materiellen Grundlagen und Bedürfnisse sind der Hauptantrieb für sozioökonomische Veränderungen.",
-            "es": "Las condiciones y necesidades materiales son el incentivo dominante detrás de los cambios socioeconómicos. "
+            "es": "Las condiciones y necesidades materiales son el incentivo dominante detrás de los cambios socioeconómicos."
         },
         "effect": {
             "a": 0,
@@ -36,7 +36,7 @@ questions = [
         "question": "''From each according to his ability, to each according to his needs'' is a good principle.",
         "i18n": {
             "de": "''Jeder nach seinen Fähigkeiten, jedem nach seinen Bedürfnissen'' ist ein guter Grundsatz.",
-            "es": ""Que cada quién provea conforme a su capacidad, y cada quién reciba conforme a su necesidad" es un buen principio."
+            "es": "''Que cada quién provea conforme a su capacidad, y cada quién reciba conforme a su necesidad'' es un buen principio."
         },
         "effect": {
             "a": 0,
@@ -116,7 +116,7 @@ questions = [
         "question": "Society is chiefly driven by individuals and ideas.",
         "i18n": {
             "de": "Die Gesellschaft wird hauptsächlich von Individuen und Ideen angetrieben.",
-            "es": "La sociedad es conducida principalmente por individuos e ideas."
+            "es": "La sociedad es guiada principalmente por individuos e ideas."
         },
         "effect": {
             "a": 0,
@@ -229,7 +229,7 @@ questions = [
         "question": "The state can be best defined as a monopoly on violence and oppression.",
         "i18n": {
             "de": "Der Staat kann am besten als Gewalt- und Unterdrückungsmonopol definiert werden.",
-            "es": "La mejor definición de "estado" es un monopolio de la violencia y la opresión."
+            "es": "La mejor definición de ''estado'' es un monopolio de la violencia y la opresión."
         },
         "effect": {
             "a": 0,
